@@ -1,0 +1,125 @@
+.navBg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8fafc;
+  padding: 12px 40px 12px 40px;
+}
+
+@media screen and (max-width: 552px) {
+  .navBg {
+    justify-content: center;
+    padding: 10px;
+    min-width: 100%;
+    max-width: 475px;
+  }
+}
+
+.headerLogoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 552px) {
+  .headerLogoContainer {
+    justify-content: center;
+    margin: 0;
+  }
+}
+
+.linkStyle {
+  text-decoration: none;
+}
+
+.HeaderLogo {
+  width: 53px;
+  height: 43px;
+}
+
+@media screen and (max-width: 552px) {
+  .HeaderLogo {
+    width: 35px;
+    height: 25px;
+  }
+}
+
+.HeaderlogoName {
+  font-family: DM Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #f7931e;
+  margin-left: 15px;
+}
+
+@media screen and (max-width: 552px) {
+  .HeaderlogoName {
+    font-size: 16px;
+    line-height: 16px;
+    margin-left: 5px;
+  }
+}
+
+.headerUl {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+  padding-right: 40px;
+}
+
+@media screen and (max-width: 552px) {
+  .headerUl {
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-right: 0;
+  }
+}
+
+.eachHeaderItem {
+  text-decoration: none;
+  padding-right: 10px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  color: #334155;
+}
+
+@media screen and (max-width: 552px) {
+  .eachHeaderItem {
+    font-size: 13px;
+    padding: 0;
+    margin-right: 5px;
+  }
+}
+
+.logoutButton {
+  background: #f7931e;
+  font-weight: 600;
+  font-size: 12px;
+  color: #ffffff;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+  padding: 8px 15px 8px 15px;
+}
+
+@media screen and (max-width: 552px) {
+  .logoutButton {
+    padding: 4px 10px 4px 10px;
+  }
+}
+
+.selectedHeader {
+  color: #f7931e;
+}

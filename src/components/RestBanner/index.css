@@ -1,0 +1,150 @@
+.restBannerBg {
+  background: #333333;
+  min-width: 100%;
+  min-height: 180px;
+  margin-top: 30px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.bannerImg {
+  width: 150px;
+  height: 120px;
+  border-radius: 8px;
+}
+.restBannerContent {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+.restBannerHead {
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+.restBannerAddress {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  color: #ffffff;
+  margin: 1px;
+}
+.restBannerRatingCostBg {
+  display: flex;
+  align-items: center;
+}
+.restBannerRating {
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  margin-top: 0px;
+}
+.restBannerOnlyRating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 0px;
+}
+.restBannerStarImg {
+  color: #ffffff;
+  width: 12px;
+}
+.restBannerStarValue {
+  font-family: DM Sans;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 8px;
+}
+.restBannerTotalRatings {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #e2e8f0;
+  margin: 0px;
+}
+
+@media (min-width: 768px) {
+  .restBannerBg {
+    background: #333333;
+    width: 1440px;
+    height: 344px;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+  }
+  .bannerImg {
+    width: 400px;
+    height: 280px;
+    border-radius: 8px;
+  }
+  .restBannerContent {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+  }
+  .restBannerHead {
+    color: #ffffff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+  }
+  .restBannerAddress {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #ffffff;
+  }
+  .restBannerRatingCostBg {
+    display: flex;
+    align-items: center;
+  }
+  .restBannerRating {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    margin-top: 0px;
+  }
+  .restBannerOnlyRating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #ffffff;
+    margin-top: 0px;
+  }
+  .restBannerStarImg {
+    color: #ffffff;
+    width: 12px;
+  }
+  .restBannerStarValue {
+    font-family: DM Sans;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    padding-top: 15px;
+    margin-top: 0px;
+    margin-left: 8px;
+  }
+  .restBannerTotalRatings {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #e2e8f0;
+  }
+}

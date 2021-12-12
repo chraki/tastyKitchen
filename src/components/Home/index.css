@@ -1,0 +1,308 @@
+@media (max-width: 768px) {
+  .homeMainBg {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: DM Sans;
+    min-height: 100vh;
+    overflow: auto;
+  }
+  .paraBox {
+    width: 60%;
+  }
+
+  .homebg {
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .homebg1 {
+    display: none;
+  }
+  .homebg2 {
+    width: 110%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .homebg111 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .cauroslImg {
+    height: 20vh;
+  }
+
+  .mainHead {
+    font-family: DM Sans;
+    color: #183b56;
+    font-size: 22px;
+    margin-top: 20px;
+    line-height: 25px;
+  }
+  .mainPara {
+    font-family: DM Sans;
+    color: #183b56;
+    font-size: 12px;
+  }
+  .mainHeadContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .sortByContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  .filter {
+    color: #475569;
+    height: 24px;
+    width: 24px;
+    margin-right: 5px;
+  }
+  .options {
+    font-weight: 500;
+    font-size: 12px;
+    color: #475569;
+  }
+  .dropDown {
+    border: none;
+    color: #475569;
+  }
+  .line {
+    color: #475569;
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+  }
+
+  .cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 80vh;
+    padding: 0px;
+  }
+  .nextRests {
+    display: flex;
+    align-items: center;
+  }
+  .pagePara {
+    font-size: 18px;
+    font-family: 'Bree Serif';
+    color: #334155;
+    margin-top: 15px;
+    margin: 10px;
+  }
+
+  .cardsContainerLi {
+    list-style-type: none;
+  }
+  .eachCardLink {
+    text-decoration: none;
+  }
+
+  .loaderBg {
+    display: flex;
+    min-height: 80vh;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .failBg {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+  }
+
+  .failImg {
+    width: 35%;
+  }
+
+  .failHead {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #1e293b;
+    margin: 15px;
+  }
+  .failPara {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #475569;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .homeMainBg {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: DM Sans;
+    min-height: 100vh;
+    overflow: auto;
+  }
+  .homebg111 {
+    display: none;
+  }
+  .paraBox {
+    width: 60%;
+  }
+
+  .homebg {
+    width: 86%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .homebg1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .homebg2 {
+    display: none;
+  }
+  .mainHead {
+    font-family: DM Sans;
+    color: #183b56;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+
+  .mainPara {
+    font-family: DM Sans;
+    color: #183b56;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .mainHeadContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sortByContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .filter {
+    color: #475569;
+    height: 22px;
+    width: 22px;
+    margin-right: 5px;
+  }
+  .options {
+    font-weight: 500;
+    font-size: 14px;
+    color: #475569;
+    padding: 10px;
+  }
+  .dropDown {
+    border: none;
+    color: #475569;
+    padding: 10px;
+  }
+  .line {
+    color: #475569;
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+  }
+
+  .cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 100vh;
+    padding: 0px;
+  }
+  .nextRests {
+    display: flex;
+    align-items: center;
+  }
+  .pagePara {
+    font-size: 18px;
+    font-family: 'Bree Serif';
+    color: #334155;
+    margin-top: 15px;
+    margin: 10px;
+  }
+
+  .cardsContainerLi {
+    list-style-type: none;
+  }
+  .eachCardLink {
+    text-decoration: none;
+  }
+
+  .loaderBg {
+    display: flex;
+    min-height: 80vh;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .failBg {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+  }
+
+  .failImg {
+    width: 35%;
+  }
+
+  .curosal-cont {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 200px;
+  }
+
+  .curosel-image {
+    min-width: 100%;
+    border-radius: 10px;
+  }
+
+  .failHead {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #1e293b;
+    margin: 15px;
+  }
+  .failPara {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #475569;
+    text-align: center;
+  }
+}

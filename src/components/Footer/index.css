@@ -1,0 +1,96 @@
+.footerBg {
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: DM Sans;
+  width: 100%;
+  padding-top: 25px;
+  margin-top: 20px;
+  padding-bottom: 25px;
+}
+.footerLogoContainer {
+  display: flex;
+  align-items: center;
+}
+.footerLogo {
+  color: #ffffff;
+  height: 25px;
+  width: 35px;
+  border-radius: 0px;
+  border: none;
+  margin-right: 7px;
+}
+.footerlogoName {
+  font-family: DM Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+}
+.footerPara {
+  font-size: 11px;
+  color: #ffffff;
+  font-weight: normal;
+  margin-top: 10px;
+}
+.socialApps {
+  display: flex;
+  align-items: center;
+}
+.socialLogo {
+  color: #ffffff;
+  height: 25px;
+  width: 25px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .footerBg {
+    background-color: #0f172a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: DM Sans;
+    width: 100%;
+  }
+  .footerLogoContainer {
+    display: flex;
+    align-items: center;
+  }
+  .footerLogo {
+    color: #ffffff;
+    height: 39px;
+    width: 49px;
+    border-radius: 0px;
+    border: none;
+    margin-right: 10px;
+  }
+  .footerlogoName {
+    font-family: DM Sans;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 26px;
+    color: #ffffff;
+  }
+  .footerPara {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: normal;
+    margin-top: 15px;
+  }
+  .socialApps {
+    display: flex;
+    align-items: center;
+  }
+  .socialLogo {
+    color: #ffffff;
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,208 @@
+.eachFoodCardImg {
+  width: 170px;
+  height: 120px;
+  border-radius: 8px;
+}
+.itemsContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 20px;
+  min-height: 100px;
+}
+.itemName {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  color: #334155;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-top: 0;
+}
+.itemCost {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #334155;
+  padding-top: 10px;
+  margin-left: 6px;
+  margin-top: 0px;
+}
+.itemStarContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+}
+.itemStarImg {
+  font-size: 12px;
+  color: #ffcc00;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+.itemStarValue {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: #0a1f44;
+  margin-left: 6px;
+  padding-top: 0;
+  margin-top: 0;
+}
+.itemRateContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  padding-bottom: 0;
+}
+.itemRateImg {
+  font-size: 13px;
+  color: #334155;
+  margin-top: 0px;
+  padding-bottom: 0;
+}
+.itemStarValue {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: #0a1f44;
+}
+.addButton {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  border-color: #ffcc00;
+  color: #ffcc00;
+  font-size: 12px;
+  padding: 3px;
+  width: 40px;
+  background-color: transparent;
+}
+.counterBg {
+  display: flex;
+  align-items: center;
+}
+.counter {
+  color: #475569;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  padding: 10px;
+}
+
+.but {
+  margin-top: 0;
+  padding-top: 0;
+  min-height: 10px;
+  min-width: 12px;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+  .eachFoodCardImg {
+    width: 255px;
+    height: 150px;
+    border-radius: 8px;
+  }
+  .itemsContent {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  .itemName {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #334155;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .itemCost {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #334155;
+    margin-left: 6px;
+    margin-top: 0px;
+  }
+  .itemStarContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0px;
+    padding-top: 0;
+    margin-bottom: 10px;
+  }
+  .itemStarImg {
+    font-size: 16px;
+    color: #ffcc00;
+    margin-bottom: 0;
+  }
+  .itemStarValue {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #0a1f44;
+    margin-left: 6px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .itemRateContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  .itemRateImg {
+    font-size: 13px;
+    color: #334155;
+  }
+  .itemStarValue {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    color: #0a1f44;
+  }
+  .addButton {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #ffcc00;
+    color: #ffcc00;
+    font-size: 12px;
+    padding: 5px 8px 5px 8px;
+    background-color: transparent;
+  }
+  .counterBg {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .but {
+    margin-top: 0;
+    padding-top: 0;
+    min-height: 20px;
+    min-width: 20px;
+    font-size: 10px;
+  }
+  .counter {
+    color: #475569;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0px;
+    margin-bottom: 7px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}

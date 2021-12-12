@@ -1,0 +1,123 @@
+.eachRestDetailsBg1 {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: DM Sans;
+}
+.itemsMainBg {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.eachFoodCard {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 155px;
+  width: 100%;
+}
+.loaderBg1 {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.failBg1 {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.failImg1 {
+  width: 20%;
+}
+
+.failHead1 {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: #1e293b;
+  margin: 15px;
+}
+.failPara1 {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #475569;
+  text-align: center;
+  width: 40%;
+}
+
+@media (min-width: 768px) {
+  .eachRestDetailsBg1 {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: DM Sans;
+  }
+  .itemsMainBg {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px;
+    padding-top: 50px;
+  }
+  .eachFoodCard {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 200px;
+    width: 500px;
+  }
+  .loaderBg1 {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .failBg1 {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .failImg1 {
+    width: 20%;
+  }
+
+  .failHead1 {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #1e293b;
+    margin: 15px;
+  }
+  .failPara1 {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #475569;
+    text-align: center;
+    width: 40%;
+  }
+}

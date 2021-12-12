@@ -1,0 +1,439 @@
+.cartContainer {
+  min-height: 80vh;
+  background-color: #ffffff;
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  padding: 15px;
+  font-family: DM Sans;
+  font-style: normal;
+}
+.cartBg {
+  display: none;
+}
+
+.mobileCartBg {
+  width: 90%;
+  background-color: #f8fafc;
+  border: 1px solid rgba(11, 105, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.cartHeadContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 20px;
+}
+.cartHead {
+  font-weight: 500;
+  font-size: 15px;
+  color: #475569;
+  list-style-type: none;
+}
+.cartItemContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  height: 120px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.foodItemImgMd {
+  width: 140px;
+  height: 110px;
+  border-radius: 7px;
+  margin-right: 17px;
+}
+
+.buttonContainer1 {
+  display: flex;
+  margin-top: 10px;
+}
+
+.buttonContainer1Md {
+  display: flex;
+  margin-top: 0px;
+}
+
+.buttonStyleMd {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+}
+
+.counter {
+  color: #475569;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  padding-top: 2px;
+}
+
+.cartItemName {
+  font-weight: 500;
+  font-size: 15px;
+  color: #183b56;
+  list-style-type: none;
+  font-family: DM Sans;
+}
+.cartPriceMd {
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffa412;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-left: 5px;
+}
+
+.cartRupeeSignMd {
+  color: #ffa412;
+  height: 14px;
+  width: 14px;
+  margin-top: 0;
+}
+
+.totalOrder {
+  font-weight: 500;
+  font-size: 16px;
+  color: #3e4c59;
+  margin-top: 20px;
+  width: 60%;
+}
+
+.orderButton {
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 16px;
+  background: #f7931e;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.line {
+  border-style: dashed;
+  width: 1px;
+  color: #cbd2d9;
+  width: 100%;
+}
+
+.bottomLine {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.cartRupeeSignBlack {
+  color: #3e4c59;
+  height: 16px;
+  width: 16px;
+}
+.totalOrder1 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #3e4c59;
+  margin-top: 8px;
+}
+.bottomTotal {
+  display: flex;
+  align-items: center;
+}
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: 90%;
+  margin-top: 10px;
+}
+
+.noOrdersImg {
+  width: 45%;
+  margin-bottom: 20px;
+}
+.noOrdersHead {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  color: #1e293b;
+}
+
+.noOrdersPara {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: #64748b;
+  text-align: center;
+}
+.NoOrdersContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding-top: 30px;
+}
+.linkClass {
+  text-decoration: none;
+}
+.placeOrderContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  box-shadow: 0px 4.00734px 40.0734px rgba(23, 31, 70, 0.16);
+  border-radius: 12px;
+  min-height: 50vh;
+  width: 80%;
+  padding: 20px;
+}
+
+.placeOrderImg {
+  height: 50px;
+  width: 50px;
+  margin: 20px;
+}
+
+.cartItemContainerMd {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px;
+  list-style-type: none;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+  .cartContainer {
+    min-height: 80vh;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    font-family: DM Sans;
+    font-style: normal;
+  }
+  .cartBg {
+    width: 80%;
+    background-color: #f9fbfe;
+    border: 1px solid rgba(11, 105, 255, 0.1);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .mobileCartBg {
+    display: none;
+  }
+  .cartHeadContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+  .cartHead {
+    font-weight: 500;
+    font-size: 20px;
+    color: #475569;
+    list-style-type: none;
+  }
+  .cartItemContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px;
+    list-style-type: none;
+    width: 100%;
+  }
+
+  .foodItem {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: center;
+    width: 20%;
+  }
+
+  .foodItemImg {
+    width: 200px;
+    height: 105px;
+    border-radius: 7px;
+    margin-right: 9px;
+  }
+  .cartItemName {
+    font-weight: 500;
+    font-size: 18px;
+    color: #183b56;
+    list-style-type: none;
+    font-family: DM Sans;
+  }
+  .buttonStyle {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 30px;
+  }
+
+  .counter {
+    color: #475569;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .cartPrice {
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffa412;
+    list-style-type: none;
+    padding-left: 10px;
+    width: 10%;
+  }
+
+  .cartRupeeSign {
+    color: #ffa412;
+    height: 14px;
+    width: 14px;
+  }
+
+  .foodItem111 {
+    display: flex;
+    align-items: center;
+  }
+
+  .totalOrder {
+    font-weight: 500;
+    font-size: 20px;
+    color: #3e4c59;
+    width: 40%;
+    margin-top: 20px;
+  }
+
+  .orderButton {
+    font-weight: 500;
+    font-size: 12px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 16px;
+    background: #f7931e;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .line {
+    border-style: dashed;
+    width: 1px;
+    color: #cbd2d9;
+    width: 100%;
+  }
+
+  .bottomLine {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 20px;
+  }
+  .cartRupeeSignBlack {
+    color: #3e4c59;
+    height: 16px;
+    width: 16px;
+  }
+  .totalOrder1 {
+    font-weight: 500;
+    font-size: 22px;
+    color: #3e4c59;
+    margin-top: 8px;
+  }
+  .bottomTotal {
+    display: flex;
+    align-items: center;
+  }
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: 90%;
+    margin-top: 10px;
+  }
+
+  .noOrdersImg {
+    width: 35%;
+  }
+  .noOrdersHead {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #1e293b;
+  }
+
+  .noOrdersPara {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #64748b;
+  }
+  .NoOrdersContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .linkClass {
+    text-decoration: none;
+  }
+  .placeOrderContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0px 4.00734px 40.0734px rgba(23, 31, 70, 0.16);
+    border-radius: 12px;
+    min-height: 60vh;
+    width: 50%;
+  }
+
+  .placeOrderImg {
+    height: 64px;
+    width: 64px;
+    margin: 20px;
+  }
+}

@@ -1,0 +1,12 @@
+.counterBg {
+  display: flex;
+  align-items: center;
+}
+.counter {
+  color: #475569;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px;
+}
